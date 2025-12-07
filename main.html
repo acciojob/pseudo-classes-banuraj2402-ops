@@ -8,6 +8,85 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<style>
+        :root {
+            background-color: rgb(135, 206, 235);
+        }
+
+        article {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #f0f0f0;
+        }
+
+        article p:first-child {
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+
+        article p:nth-child(2) {
+            color: initial;
+        }
+
+        article p:last-child {
+            color: red;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px;
+        }
+
+        li {
+            background-color: gray;
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        li:nth-child(odd) {
+            background-color: white;
+        }
+
+        li:first-child,
+        li:last-child {
+            font-size: 22px;
+        }
+
+        li:nth-last-child(3) {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CSS Pseudo-Class Demo</h1>
+    </header>
+
+    <article>
+        <h2>Article Content</h2>
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the third paragraph.</p>
+    </article>
+
+    <hr>
+
+    <section>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ul>
+    </section>
     <script type="text/javascript" src="./script.js">
 </script>
 
